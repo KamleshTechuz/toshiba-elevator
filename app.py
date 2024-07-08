@@ -44,6 +44,7 @@ if st.button("Document Embeddings"):
     st.write("Vector Store BD is available")
 
 if query:
+    
     docChain = create_stuff_documents_chain(llm, prompt)
     retriver = st.session_state.vector.as_retriever()
     retriverChain = create_retrieval_chain(retriver, docChain)
