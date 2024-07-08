@@ -1,0 +1,12 @@
+python-dotenv==1.0.0
+langchain
+langchain_community
+openai
+streamlit
+pypdf
+chromadb
+faiss-cpu
+langchain_groq
+groq
+sentence_transformers
+tiktoken
