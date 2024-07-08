@@ -12,6 +12,9 @@ from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
 
+st.cache_data.clear()
+st.cache_resource.clear()
+
 st.title("TOSHIBA Standard Type Elevator: Q&A ")
 
 def vectorEmbedding():
